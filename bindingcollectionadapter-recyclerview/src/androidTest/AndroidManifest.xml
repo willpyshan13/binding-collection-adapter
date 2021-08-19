@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.tatarka.bindingcollectionadapter2.recyclerview">
+
+    <uses-sdk android:targetSdkVersion="30" />
+
+    <application>
+        <activity android:name="me.tatarka.bindingcollectionadapter2.recyclerview.EmptyActivity" />
+    </application>
+</manifest>

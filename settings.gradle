@@ -1,0 +1,6 @@
+include ':app',
+        ':bindingcollectionadapter',
+        ':bindingcollectionadapter-ktx',
+        ':bindingcollectionadapter-recyclerview',
+        ':bindingcollectionadapter-paging',
+        ':bindingcollectionadapter-viewpager2'
