@@ -246,6 +246,10 @@ public class BindingRecyclerViewAdapter<T> extends RecyclerView.Adapter<ViewHold
         }
     }
 
+    public List<? super T> getItems(){
+        return items;
+    }
+
     /**
      * Set the factory for creating view holders. If null, a default view holder will be used. This
      * is useful for holding custom state in the view holder or other more complex customization.

@@ -13,9 +13,13 @@ afterEvaluate {
         repositories {
             maven {
                 // change URLs to point to your repos, e.g. http://my.org/repo
-                def releasesRepoUrl = layout.buildDirectory.dir('repos/releases')
-                def snapshotsRepoUrl = layout.buildDirectory.dir('repos/snapshots')
+                def releasesRepoUrl = 'https://packages.aliyun.com/maven/repository/2132462-release-o7KSVF/'
+                def snapshotsRepoUrl = 'https://packages.aliyun.com/maven/repository/2132462-snapshot-Aw2jt2/'
                 url = version.endsWith('SNAPSHOT') ? snapshotsRepoUrl : releasesRepoUrl
+                credentials {
+                    username '6127ae307cbfb3c62b93e6a8'
+                    password 'YowtVmoeCxRa'
+                }
             }
         }
     }
